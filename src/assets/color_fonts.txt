@@ -1,0 +1,7 @@
+font family : Playfair Display
+sub_text font family : Georgia
+font_dark : #333333
+font_light_gray: #9697B5
+orange_button & text : #FFAB00
+bg_color : #F9F9F9
+card color : #fff border radius 4

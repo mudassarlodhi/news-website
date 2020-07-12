@@ -1,1 +1,80 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+body {
+    padding:0;
+    margin:0;
+}
+
+
+
+.carousel-item {
+    margin-right: 0
+}
+
+div.item {
+    height: 18vw;
+    min-height: 200px;
+    position: relative;
+}
+
+.item img  {
+    height: 100%;
+}
+
+
+
+.carousel-caption {
+    padding:0;
+    bottom: 10px;
+}
+
+.carousel-caption h4 {
+    font-size: .9rem;
+}
+
+
+
+.carousel-control-prev , .carousel-control-next {
+    z-index: 11;
+}
+
+
+
+.header-news .card {
+    padding: 0px !important;
+    // border: none;
+    border-radius: 0;
+}
+
+.header-news .card-img-overlay {
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-news img {
+    max-height: 30rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card__header-news__text {
+    max-width: 45rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card__header-news .card-title {
+    
+        margin-bottom: 2.5rem;
+        font-weight: 700;
+        font-size: 3rem;
+    
+}
+
+.card__header-news .card-text {
+    margin-bottom: 2.5rem;
+}

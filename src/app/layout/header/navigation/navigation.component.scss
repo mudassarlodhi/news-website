@@ -1,0 +1,40 @@
+p {
+    margin:0;
+}
+
+
+
+.navigation {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;    
+    display: flex;
+    align-items: center;
+    padding:0;
+}
+
+
+.navigation-nav {
+    margin: 0;
+    list-style-type: none;
+
+    .nav-link {
+        color: darkslategray;
+        padding: 16px 20px;
+    }
+}
+
+.burder-btn {
+    padding:10px;
+    display: inline-block;
+    padding: 18px;
+    border-right: 1px solid #e0dada;
+    display: inline-block;
+    // padding: 22px;
+    padding: 16px 20px;
+}
+
+
+.right-border {
+    border-right: 1px solid #e0dada;
+}

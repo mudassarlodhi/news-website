@@ -1,0 +1,51 @@
+<div style="background-color: #FAFAFA;">
+
+<div class="news-detail" *ngIf="news">
+        <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-news">
+
+                        <div class="card bg-dark text-white card__header-news">
+                                <img class="card-img" src="{{news.urlToImage}}"
+                                        alt="Card image">
+                                <div class="card-img-overlay">
+                                        <div class="card__header-news__text">
+                                                <h5 class="card-title">{{news.title}}</h5>
+                                                <p class="card-text" style="font-style: italic;">Posted on
+                                                        {{ news.publishedAt | date:'mediumDate' }}</p>
+                                        </div>
+                                </div>
+                               
+                        </div>
+                        <div class="bg-white p-4 mb-3">
+                            <h3 class="my-1"> {{news.description}}</h3>
+                            <h6 class="mt-4">Author: <strong>{{news.author}}</strong></h6>
+                            <p class="mt-4 mb-3">
+                                {{news.content}}
+                            </p>
+
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mi quam, laoreet in vulputate quis, faucibus in massa. Integer molestie aliquam mollis. Duis lacinia orci nisi, et ullamcorper leo condimentum eu. In hac habitasse platea dictumst. Phasellus congue luctus sem, ut sagittis enim congue sed. Quisque aliquam vehicula lectus, sed scelerisque augue dignissim ut. Nullam in diam massa.
+                            </p>
+                            <p>
+                                Nulla blandit convallis lorem, ornare congue massa consectetur vel. Fusce accumsan, nibh eu efficitur tristique, augue justo vestibulum ipsum, ac condimentum tellus augue vel massa. Mauris risus ex, convallis eget ornare tempus, pulvinar in sapien. Donec odio lacus, lacinia vestibulum volutpat at, feugiat sit amet dolor. Maecenas vitae suscipit libero. Vivamus id molestie magna. Donec pretium viverra pretium. Aenean volutpat sem lorem, eget fermentum lectus pellentesque sit amet. Duis nec lectus lacus.
+                            </p>
+
+                            <p>
+                                Sed iaculis mauris vitae pharetra facilisis. Sed molestie velit vitae nisl vehicula commodo. Etiam aliquam velit vitae posuere semper. Duis vel accumsan libero. Praesent imperdiet vel velit sit amet tincidunt. Phasellus ut dapibus sem, ut sollicitudin felis. Fusce quis magna velit. Maecenas eget nisl sed tellus imperdiet scelerisque porttitor sit amet odio. Aliquam id nunc ligula.
+                            </p>
+
+                            <p>
+                                Nunc elementum eleifend accumsan. Nullam fermentum fermentum elit, et ultrices eros vehicula a. Etiam varius nulla ac nulla iaculis scelerisque. Integer mi ipsum, accumsan sed justo eget, porttitor pulvinar enim. Nulla accumsan tempor felis, at blandit mauris hendrerit vitae. Proin mollis quis massa vitae tincidunt. Nullam id mauris lacus. Phasellus porta elit vitae metus pulvinar, vel laoreet tellus eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla porta laoreet nibh, vel vestibulum sem scelerisque ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sit amet ultricies tellus, a pretium arcu. Integer eleifend enim dolor, at malesuada nulla porta sit amet. In ullamcorper gravida odio, pretium lobortis nibh venenatis mollis.
+                            </p>
+                        </div>
+                        
+                    </div>
+                        
+                </div>
+            </div>
+</div>
+  
+   
+
+</div>

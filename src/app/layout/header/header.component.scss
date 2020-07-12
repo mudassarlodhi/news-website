@@ -1,0 +1,24 @@
+
+
+
+.header {
+    min-height: 180px; 
+    background-color: #FAFAFA;
+    padding: 10px 0;
+
+    &-top {
+        border-bottom: 1px solid #e0dada;
+        padding: 26px 0px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.header-social-media-icons {
+    justify-content: flex-end;
+    display: flex;
+    padding: 6px 0px;
+    a {
+        margin:0 10px;
+    }
+}
